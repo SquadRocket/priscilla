@@ -23,7 +23,7 @@ h3 {
 }
 
 .main {
-  width: auto;
+  width: 100%;
 }
 
 .texto-main {
@@ -38,10 +38,7 @@ h3 {
 
 .row {
   width: 100%;
-}
 
-.flex {
-    display: flex;
 }
 
 .voltar {
@@ -49,8 +46,7 @@ h3 {
   position: relative;
 }
 
-.container {
-  width: auto;
+.container-principal{
   padding: 0 24px 0 24px;
 }
 
@@ -77,33 +73,37 @@ h3 {
 }
 
 .banner-cartao {
-  position: relative; top: 60px; left: 56px;
-}
-
-#container-porcento {
-  width: 80px;
-  margin: 70px;
-  border-radius:5px;
-  padding:10px;
-  box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
-}
-
-.porcento {
+  position: relative;
+  top: 60px;
+  margin-bottom: 90px;
   text-align: center;
+  margin-bottom: 90px;
 }
 
-#container-juros {
-  width:80px;
-  margin: 70px;
-  border-radius:5px;
-  padding:10px;
-  box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
-}
-
-.juros{
-  text-align: center;
-}
-
-.desc  {
+.flex-item-1{
+  flex-flow: column;
   display: flex;
+  align-items: center;
+  box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px;
+  width: 82px;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.item {
+  padding: 10px 10px 10px 10px;
+}
+p{
+  font-size: 14px;
+  font-family: cursive;
+}
+
