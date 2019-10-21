@@ -7,27 +7,33 @@
 
 h1 {
   color: #0c0d2c;
-  font-family: Avenir;
-  font-size: 2em;
-  font-weight: 800;
-  line-height: 24px;
-}
+  font-family: cursive;
+  font-size: 24px;
+  height: 70px;
+  padding: 20px 0 0 0;
+  }
 
 h3 {
   color: #0c0d2c;
-  font-family: Avenir;
+  font-family: cursive;
+}
+
+.svg-ok{
+    padding: 0 12px 0 10px;
 }
 
 .main {
   width: auto;
 }
 
-.text-main {
+.texto-main {
   color: #0c0d2c;
-  font-family: Avenir;
-  font-size: 16px;
+  font-family: cursive;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.15px;
+  text-align: inherit;
+  padding: 0 0 0 20px;
 }
 
 .row {
@@ -80,11 +86,11 @@ h3 {
   border-radius:5px;
   padding:10px;
   box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
-  }
+}
 
 .porcento {
   text-align: center;
-  }
+}
 
 #container-juros {
   width:80px;
@@ -92,7 +98,7 @@ h3 {
   border-radius:5px;
   padding:10px;
   box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
-  }
+}
 
 .juros{
   text-align: center;
@@ -100,5 +106,4 @@ h3 {
 
 .desc  {
   display: flex;
-
 }
