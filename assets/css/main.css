@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #0c0d2c;
+  font-family: Avenir;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+h3 {
+  color: #0c0d2c;
+  font-family: Avenir;
+}
+
+.main {
+  width: auto;
+}
+
+.text-main {
+  color: #0c0d2c;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+
+.row {
+  width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.voltar {
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  width: auto;
+  padding: 0 24px 0 24px;
+}
+
+.btn-voltar {
+  border: none;
+  color: #8f909e;
+  text-transform: lowercase;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.15px;
+  text-decoration: none;
+  width: 111px;
+  padding: 10px;
+  display: flex;
+}
+
+.btn-voltar svg {
+  margin: 0 21px 0 0;
+}
+
+.bg-gray {
+  background: #f4f4f4;
+}
+
+.banner-cartao {
+  position: relative; top: 60px; left: 56px;
+}
+
+#container-porcento {
+  width: 80px;
+  margin: 70px;
+  border-radius:5px;
+  padding:10px;
+  box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
+  }
+
+.porcento {
+  text-align: center;
+  }
+
+#container-juros {
+  width:80px;
+  margin: 70px;
+  border-radius:5px;
+  padding:10px;
+  box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
+  }
+
+.juros{
+  text-align: center;
+}
+
+.desc  {
+  display: flex;
+
+}
