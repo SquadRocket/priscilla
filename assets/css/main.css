@@ -5,49 +5,20 @@
   padding: 0;
 }
 
-h1 {
-  color: #0c0d2c;
-  font-family: cursive;
-  font-size: 24px;
-  height: 70px;
-  padding: 20px 0 0 0;
-  }
-
-h3 {
-  color: #0c0d2c;
-  font-family: cursive;
+.flex-header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
-.svg-ok{
-    padding: 0 12px 0 10px;
-}
-
-.main {
-  width: 100%;
-}
-
-.texto-main {
-  color: #0c0d2c;
-  font-family: cursive;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.15px;
-  text-align: inherit;
-  padding: 0 0 0 20px;
-}
-
-.row {
-  width: 100%;
-
+.flex-header-busca{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .voltar {
   width: 100%;
   position: relative;
-}
-
-.container-principal{
-  padding: 0 24px 0 24px;
 }
 
 .btn-voltar {
@@ -70,29 +41,64 @@ h3 {
 
 .bg-gray {
   background: #f4f4f4;
+  height: 267px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  color: #0c0d2c;
+  font-family: cursive;
+  height: 70px;
+  padding: 14px 0 0 16px;
+  }
+
+.flex-ok {
+  position: absolute;
+  left: 40px;
+  top: 190px;
+}
+
+.texto-main {
+  color: #0c0d2c;
+  font-family: cursive;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  padding: 0 0 0 20px;
+  position: absolute;
+  left: 112px;
 }
 
 .banner-cartao {
   position: relative;
-  top: 60px;
-  margin-bottom: 90px;
-  text-align: center;
-  margin-bottom: 90px;
+  top: 114px;
+  left: 100px;
 }
 
-.flex-item-1{
+.flex-item-1 , .flex-item-2, .flex-item-3 {
   flex-flow: column;
   display: flex;
   align-items: center;
   box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  margin: 20px;
+  height: 82px;
+  width: 82px;
+}
+
+.flex-item-4 {
+  margin-bottom: 20px;
+  flex-flow: column;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 6px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  height: 82px;
   width: 82px;
 }
 
 .flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
 }
 
 .flex-wrap {
@@ -102,8 +108,14 @@ h3 {
 .item {
   padding: 10px 10px 10px 10px;
 }
-p{
+
+.percentage, .Grupo4106, .coin, .netpoints {
+  margin-bottom: 10px;
+}
+
+p , h4 {
   font-size: 14px;
   font-family: cursive;
+  text-align: center;
 }
 
