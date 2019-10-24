@@ -71,7 +71,7 @@ h1 {
 .banner-cartao {
   position: relative;
   top: 114px;
-  left: 100px;
+  left: 87px;
 }
 
 .flex-item-1 , .flex-item-2, .flex-item-3 {
@@ -113,9 +113,41 @@ h1 {
   margin-bottom: 10px;
 }
 
-p , h4 {
+p {
   font-size: 14px;
   font-family: cursive;
   text-align: center;
+}
+
+h4 {
+  font-size: 10px;
+  font-family: cursive;
+  text-align: inherit;
+  margin-bottom: 24px;
+}
+
+.cart-sav{
+  width: 100%;
+}
+
+.text {
+  font-size: 20px;
+  font-family: cursive;
+  text-align: inherit;
+  margin-bottom: 30px;
+}
+
+.btn-nc, .btn-ca {
+  background-color:#004A99;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 3px;
+  width:100%;
+  right: 343px;
+  height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
