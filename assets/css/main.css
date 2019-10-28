@@ -70,8 +70,8 @@ h1 {
 
 .banner-cartao {
   position: relative;
-  top: 114px;
-  left: 87px;
+  top: 117px;
+  left: 117px;
 }
 
 .flex-item-1 , .flex-item-2, .flex-item-3 {
@@ -159,11 +159,12 @@ h4 {
 .midias{
   background:#004A99;
   height: 60px;
+  width: 100%;
 }
 
 .face-icone, .insta-icone, .twit-icone, .you-icone {
-  margin-left: 15px;
-  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-bottom: 17px;
   align-items: flex-end;
 }
 
@@ -181,7 +182,6 @@ h4 {
 
 .footer-info{
   background: rgb(201, 201, 219) ;
-  padding: 10px 10px 10px 10px;
 }
 
 .info{
@@ -189,6 +189,6 @@ h4 {
   font-family: cursive;
   text-align: inherit;
 }
-.pgtos{
-  
-}
+/*.pgtos{
+
+}*/
