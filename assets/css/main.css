@@ -116,7 +116,8 @@ h1 {
 p {
   font-size: 14px;
   font-family: cursive;
-  text-align: center;
+  text-align: inherit;
+  margin-bottom: 16px;
 }
 
 h4 {
@@ -163,22 +164,14 @@ h4 {
 }
 
 .face-icone, .insta-icone, .twit-icone, .you-icone {
-  margin-left: 30px;
-  margin-bottom: 17px;
-  align-items: flex-end;
+  margin-left: 18px;
+
 }
 
 .up {
-  margin-left: 116px;
-  margin-bottom: 2px;
-  width: 50px;
-  height: 50px;
-}
+  margin-left: 100px;
 
-/*
-.far fa-plus {
-  background: black;
-}*/
+}
 
 .footer-info{
   background: rgb(201, 201, 219) ;
@@ -189,6 +182,39 @@ h4 {
   font-family: cursive;
   text-align: inherit;
 }
-/*.pgtos{
 
-}*/
+.st-seguro {
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 40px;
+}
+.group-pagto{
+  height: 63px;
+  width: 100%;
+}
+
+.group-st-seguro{
+  margin-bottom: 50.5px;
+}
+
+hr{
+  border-color: #D4D4D4;
+  box-sizing:border-box;
+  width:100%;
+  margin-bottom: 21px;
+}
+
+.copy{
+  margin-bottom: 40px;
+    font-size: 12px;
+    font-family: cursive;
+    text-align: inherit;
+    padding: 10px 10px 10px 10px;
+}
+
+.develop{
+  margin-bottom: 11px;
+}
+
+.flex-footer-empresa{
+  padding: 10px 10px 10px 10px;
+}
